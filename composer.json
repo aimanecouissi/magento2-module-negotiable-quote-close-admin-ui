@@ -1,0 +1,22 @@
+{
+    "name": "aimanecouissi/module-negotiable-quote-close-admin-ui",
+    "version": "1.0.0",
+    "description": "Add single and mass close actions to the negotiable quotes admin interface",
+    "type": "magento2-module",
+    "require": {
+        "php": "~8.3.0||~8.4.0",
+        "magento/framework": "103.0.*",
+        "magento/extension-b2b": "^1.5"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AimaneCouissi\\NegotiableQuoteCloseAdminUi\\": ""
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Aimane Couissi - https://aimanecouissi.com
+ * Copyright © Aimane Couissi 2026–present. All rights reserved.
+ * Licensed under the MIT License. See LICENSE for details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\NegotiableQuote\Block\Adminhtml\Quote\View">
+        <plugin name="aimanecouissi_negotiable_quote_close_admin_ui_negotiable_quote_block_adminhtml_quote_view_plugin"
+                type="AimaneCouissi\NegotiableQuoteCloseAdminUi\Plugin\NegotiableQuote\Block\Adminhtml\Quote\ViewPlugin"/>
+    </type>
+</config>
