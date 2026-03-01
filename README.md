@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-negotiable-quote-close-admin-ui/v)](https://packagist.org/packages/aimanecouissi/module-negotiable-quote-close-admin-ui) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-negotiable-quote-close-admin-ui/downloads)](https://packagist.org/packages/aimanecouissi/module-negotiable-quote-close-admin-ui) [![Magento Version Require](https://img.shields.io/badge/magento-2.4.x-E68718)](https://packagist.org/packages/aimanecouissi/module-negotiable-quote-close-admin-ui) [![License](http://poser.pugx.org/aimanecouissi/module-negotiable-quote-close-admin-ui/license)](https://packagist.org/packages/aimanecouissi/module-negotiable-quote-close-admin-ui) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-negotiable-quote-close-admin-ui/require/php)](https://packagist.org/packages/aimanecouissi/module-negotiable-quote-close-admin-ui)
 
-Adds a **Close** action to the Negotiable Quotes Admin UI, including a **Close** button on the view page and a **mass action** on the grid.
+Adds a **Close** action to the Negotiable Quotes Admin UI — both as a button on the quote view page and as a mass action on the grid.
 
 ## Installation
 ```bash
@@ -13,7 +13,8 @@ bin/magento cache:flush
 ```
 
 ## Usage
-Open any negotiable quote in the Admin. A **Close** button is displayed on the quote view page when the current user has permission to close quotes. If the quote is already closed or converted to an order, the button is shown as disabled. From the negotiable quotes grid, one or more quotes can be selected and closed at once using the **Close** mass action.
+
+Open any negotiable quote in **Admin → Sales → Quotes**. A **Close** button is shown on the view page when the current user has permission to close quotes, and is displayed as disabled if the quote is already closed or converted to an order. Multiple quotes can also be closed at once from the grid using the **Close** mass action.
 
 ## Uninstall
 ```bash
@@ -24,4 +25,5 @@ bin/magento cache:flush
 ```
 
 ## License
+
 [MIT](LICENSE)
