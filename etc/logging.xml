@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Aimane Couissi - https://aimanecouissi.com
+ * Copyright © Aimane Couissi 2026–present. All rights reserved.
+ * Licensed under the MIT License. See LICENSE for details.
+ */
+-->
+<logging xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Logging:etc/logging.xsd">
+    <groups>
+        <group name="negotiablequote">
+            <events>
+                <event controller_action="quotes_quote_close" action_alias="close"/>
+                <event controller_action="quotes_quote_massClose" action_alias="massClose"/>
+            </events>
+        </group>
+    </groups>
+</logging>

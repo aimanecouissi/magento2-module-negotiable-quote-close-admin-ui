@@ -1,0 +1,42 @@
+{
+    "name": "aimanecouissi/module-negotiable-quote-close-admin-ui",
+    "version": "1.0.0",
+    "description": "Close negotiable quotes from the Admin quote grid",
+    "type": "magento2-module",
+    "keywords": [
+        "magento2",
+        "magento",
+        "adobe-commerce",
+        "b2b",
+        "negotiable-quote",
+        "negotiable-quote-grid",
+        "close"
+    ],
+    "homepage": "https://github.com/aimanecouissi/magento2-module-negotiable-quote-close-admin-ui",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aimane Couissi",
+            "email": "contact@aimanecouissi.com",
+            "homepage": "https://www.aimanecouissi.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "magento/framework": "103.0.*",
+        "magento/extension-b2b": "^1.5"
+    },
+    "support": {
+        "issues": "https://github.com/aimanecouissi/magento2-module-negotiable-quote-close-admin-ui/issues",
+        "source": "https://github.com/aimanecouissi/magento2-module-negotiable-quote-close-admin-ui"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AimaneCouissi\\NegotiableQuoteCloseAdminUi\\": ""
+        }
+    }
+}
